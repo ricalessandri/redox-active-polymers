@@ -5,7 +5,7 @@ please refer to the following publication:
 
 - R. Alessandri, C.-H. Li, S. Keating, K. T. Mohanty, A. Peng, J. L. Lutkenhaus, S. J. Rowan, D. P. Tabor, J. J. de Pablo,
   "Structural, Ionic, and Electronic Properties of Solid-State Phthalimide-Containing Polymers for All-Organic Batteries",
-  *Chemrxiv*, **2024**, *[DOI pending]*.
+  *Chemrxiv*, **2024**, [10.26434/chemrxiv-2024-qkjr8](https://doi.org/10.26434/chemrxiv-2024-qkjr8).
 
 
 ## Atomistic models
