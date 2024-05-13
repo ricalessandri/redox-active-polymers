@@ -1,0 +1,108 @@
+REMARK LIGPARGEN GENERATED PDB FILE
+ATOM      1  N01 TBA     1       1.000   1.000   0.000
+ATOM      2  C02 TBA     1      -0.565   1.000   0.000
+ATOM      3  C03 TBA     1      -1.192   1.000   1.401
+ATOM      4  C04 TBA     1      -2.722   0.934   1.335
+ATOM      5  C05 TBA     1      -3.334   0.937   2.730
+ATOM      6  C06 TBA     1       1.604  -0.224   0.748
+ATOM      7  C07 TBA     1       1.119  -1.593   0.279
+ATOM      8  C08 TBA     1       1.690  -2.760   1.083
+ATOM      9  C09 TBA     1       1.339  -4.073   0.391
+ATOM     10  C10 TBA     1       1.465   2.315   0.767
+ATOM     11  C11 TBA     1       2.985   2.501   0.801
+ATOM     12  C12 TBA     1       3.392   3.740   1.602
+ATOM     13  C13 TBA     1       4.910   3.853   1.666
+ATOM     14  C14 TBA     1       1.511   1.150  -1.489
+ATOM     15  C15 TBA     1       1.023   0.084  -2.467
+ATOM     16  C16 TBA     1       1.533   0.252  -3.899
+ATOM     17  C17 TBA     1       1.158  -0.989  -4.709
+ATOM     18  H18 TBA     1      -0.892   0.117  -0.554
+ATOM     19  H19 TBA     1      -0.876   1.892  -0.557
+ATOM     20  H20 TBA     1      -0.927   1.913   1.944
+ATOM     21  H21 TBA     1      -0.831   0.148   1.984
+ATOM     22  H22 TBA     1      -3.035   0.027   0.806
+ATOM     23  H23 TBA     1      -3.110   1.793   0.774
+ATOM     24  H24 TBA     1      -2.988   0.076   3.311
+ATOM     25  H25 TBA     1      -4.426   0.886   2.668
+ATOM     26  H26 TBA     1      -3.067   1.848   3.275
+ATOM     27  H27 TBA     1       1.378  -0.086   1.810
+ATOM     28  H28 TBA     1       2.688  -0.170   0.615
+ATOM     29  H29 TBA     1       1.487  -1.790  -0.716
+ATOM     30  H30 TBA     1       0.028  -1.660   0.261
+ATOM     31  H31 TBA     1       1.288  -2.742   2.105
+ATOM     32  H32 TBA     1       2.782  -2.672   1.143
+ATOM     33  H33 TBA     1       0.253  -4.203   0.331
+ATOM     34  H34 TBA     1       1.763  -4.925   0.931
+ATOM     35  H35 TBA     1       1.733  -4.093  -0.632
+ATOM     36  H36 TBA     1       1.097   2.225   1.793
+ATOM     37  H37 TBA     1       0.969   3.160   0.277
+ATOM     38  H38 TBA     1       3.388   2.607  -0.209
+ATOM     39  H39 TBA     1       3.465   1.634   1.264
+ATOM     40  H40 TBA     1       2.992   3.679   2.620
+ATOM     41  H41 TBA     1       2.979   4.641   1.134
+ATOM     42  H42 TBA     1       5.345   2.976   2.158
+ATOM     43  H43 TBA     1       5.206   4.741   2.232
+ATOM     44  H44 TBA     1       5.338   3.926   0.661
+ATOM     45  H45 TBA     1       2.603   1.125  -1.449
+ATOM     46  H46 TBA     1       1.187   2.142  -1.826
+ATOM     47  H47 TBA     1      -0.067   0.015  -2.485
+ATOM     48  H48 TBA     1       1.420  -0.878  -2.186
+ATOM     49  H49 TBA     1       2.625   0.357  -3.901
+ATOM     50  H50 TBA     1       1.104   1.148  -4.359
+ATOM     51  H51 TBA     1       1.581  -1.895  -4.256
+ATOM     52  H52 TBA     1       1.536  -0.921  -5.732
+ATOM     53  H53 TBA     1       0.071  -1.115  -4.746
+TER 
+CONECT    1    2 
+CONECT    2    3 
+CONECT    3    4 
+CONECT    4    5 
+CONECT    1    6 
+CONECT    6    7 
+CONECT    7    8 
+CONECT    8    9 
+CONECT    1   10 
+CONECT   10   11 
+CONECT   11   12 
+CONECT   12   13 
+CONECT    1   14 
+CONECT   14   15 
+CONECT   15   16 
+CONECT   16   17 
+CONECT    2   18 
+CONECT    2   19 
+CONECT    3   20 
+CONECT    3   21 
+CONECT    4   22 
+CONECT    4   23 
+CONECT    5   24 
+CONECT    5   25 
+CONECT    5   26 
+CONECT    6   27 
+CONECT    6   28 
+CONECT    7   29 
+CONECT    7   30 
+CONECT    8   31 
+CONECT    8   32 
+CONECT    9   33 
+CONECT    9   34 
+CONECT    9   35 
+CONECT   10   36 
+CONECT   10   37 
+CONECT   11   38 
+CONECT   11   39 
+CONECT   12   40 
+CONECT   12   41 
+CONECT   13   42 
+CONECT   13   43 
+CONECT   13   44 
+CONECT   14   45 
+CONECT   14   46 
+CONECT   15   47 
+CONECT   15   48 
+CONECT   16   49 
+CONECT   16   50 
+CONECT   17   51 
+CONECT   17   52 
+CONECT   17   53 
+END

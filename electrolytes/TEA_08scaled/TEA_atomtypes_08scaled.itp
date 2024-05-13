@@ -1,0 +1,11 @@
+[ atomtypes ]
+; tetrabutylammonium
+; scaled by 0.8
+; name  mass  charge  ptype   sigma   epsilon
+TEA_N4   14.0070   0.0960   A    3.25000e-01  7.11280e-01
+TEA_C1   12.0110  -0.1360   A    3.50000e-01  2.76140e-01 ; C bonded to N3/N4
+TEA_H1   1.0080    0.1040   A    2.50000e-01  1.25520e-01 ; H bonded to C1
+TEA_C2   12.01100  0.0080   A    3.50000e-01  2.76140e-01 ; C bonded to C1
+TEA_CS   12.01100 -0.0960   A    3.50000e-01  2.76140e-01 ; C in generic -CH2-
+TEA_CT   12.01100 -0.1440   A    3.50000e-01  2.76140e-01 ; C in generic -CH3
+TEA_HC   1.00800   0.0480   A    2.50000e-01  1.25520e-01 ; H bonded to C2, CS, or CT
