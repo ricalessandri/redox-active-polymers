@@ -17,7 +17,9 @@ please refer to the following manuscript:
 - The PVBP AA model can be found in the [library of Polyply](https://github.com/marrink-lab/polyply_1.0/blob/master/LIBRARY.md).
 - The PTMA AA model can be found in the [library of Polyply](https://github.com/marrink-lab/polyply_1.0/blob/master/LIBRARY.md).
 
+
 ### Electrolytes
+
 - [electrolytes](./electrolytes)
 
 
@@ -46,6 +48,15 @@ please refer to the following manuscript:
 |  5%                      | [.gro][PVBP05000] | [.gro][PVBP05020] | [.gro][PVBP05060] |
 | 10%                      | [.gro][PVBP10000] | [.gro][PVBP10020] | [.gro][PVBP10060] |
 | 20%                      | [.gro][PVBP20000] | [.gro][PVBP20020] | [.gro][PVBP20060] |
+
+
+## MD simulation protocol
+
+- **equilibration**: [step1 - minimization](./mdps/eq_step1_min.mdp), [step2 - NVT](./mdps/eq_step2_NVT.mdp), [step3 - 100 bar, 900K](./mdps/eq_step3_NPT_highP.mdp), [step4 - 900K](./mdps/eq_step4_NPT_highT.mdp) 
+- **cooling**: [NPT](./mdps/cool_NPT.mdp) 
+- **relaxation**: [NPT](./mdps/relax_NPT.mdp) 
+
+
 
 
 [PMAP05000]: https://github.com/ricalessandri/redox-active-polymers/tree/main/configurations/PMAP000charge_DME_TBAPF6_05percent/relax-30mer-300K-D/1-relax-100ns-whole.gro
