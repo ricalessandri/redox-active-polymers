@@ -52,9 +52,9 @@ please refer to the following manuscript:
 
 ## MD simulation protocol
 
-- **equilibration**: [step1 - minimization](./mdps/eq_step1_min.mdp), [step2 - NVT](./mdps/eq_step2_NVT.mdp), [step3 - 100 bar, 900K](./mdps/eq_step3_NPT_highP.mdp), [step4 - 900K](./mdps/eq_step4_NPT_highT.mdp) 
-- **cooling**: [NPT](./mdps/cool_NPT.mdp) 
-- **relaxation**: [NPT](./mdps/relax_NPT.mdp) 
+- **equilibration**: [step1 - minimization](./MD_settings/eq_step1_min.mdp), [step2 - NVT](./MD_settings/eq_step2_NVT.mdp), [step3 - 100 bar, 900K](./MD_settings/eq_step3_NPT_highP.mdp), [step4 - 900K](./MD_settings/eq_step4_NPT_highT.mdp) 
+- **cooling**: [NPT](./MD_settings/cool_NPT.mdp) 
+- **relaxation**: [NPT](./MD_settings/relax_NPT.mdp) 
 
 
 
