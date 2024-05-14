@@ -32,13 +32,12 @@ please refer to the following manuscript:
 | 20%                      | [.gro](PMAP20000) | [.gro](PMAP20020) | [.gro](PMAP20060) |
 
 
-[PMAP05000]: configurations/PMAP000charge_DME_TBAPF6_05percent/relax-30mer-300K-D/1-relax-100ns-whole.gro
-[PMAP05020]: configurations/PMAP020charge_DME_TBAPF6_05percent/relax-30mer-300K-D/1-relax-100ns-whole.gro
-[PMAP05060]: configurations/PMAP060charge_DME_TBAPF6_05percent/relax-30mer-300K-D/1-relax-100ns-whole.gro
-[PMAP10000]: configurations/PMAP000charge_DME_TBAPF6_10percent/relax-30mer-300K-D/1-relax-100ns-whole.gro
-[PMAP10020]: configurations/PMAP020charge_DME_TBAPF6_10percent/relax-30mer-300K-D/1-relax-100ns-whole.gro
-[PMAP10060]: configurations/PMAP060charge_DME_TBAPF6_10percent/relax-30mer-300K-D/1-relax-100ns-whole.gro
-[PMAP20000]: configurations/PMAP000charge_DME_TBAPF6_20percent/relax-30mer-300K-D/1-relax-100ns-whole.gro
-[PMAP20020]: configurations/PMAP020charge_DME_TBAPF6_20percent/relax-30mer-300K-D/1-relax-100ns-whole.gro
-[PMAP20060]: configurations/PMAP060charge_DME_TBAPF6_20percent/relax-30mer-300K-D/1-relax-100ns-whole.gro
-
+[PMAP05000]: ./configurations/PMAP000charge_DME_TBAPF6_05percent/relax-30mer-300K-D/1-relax-100ns-whole.gro
+[PMAP05020]: ./configurations/PMAP020charge_DME_TBAPF6_05percent/relax-30mer-300K-D/1-relax-100ns-whole.gro
+[PMAP05060]: ./configurations/PMAP060charge_DME_TBAPF6_05percent/relax-30mer-300K-D/1-relax-100ns-whole.gro
+[PMAP10000]: ./configurations/PMAP000charge_DME_TBAPF6_10percent/relax-30mer-300K-D/1-relax-100ns-whole.gro
+[PMAP10020]: ./configurations/PMAP020charge_DME_TBAPF6_10percent/relax-30mer-300K-D/1-relax-100ns-whole.gro
+[PMAP10060]: ./configurations/PMAP060charge_DME_TBAPF6_10percent/relax-30mer-300K-D/1-relax-100ns-whole.gro
+[PMAP20000]: ./configurations/PMAP000charge_DME_TBAPF6_20percent/relax-30mer-300K-D/1-relax-100ns-whole.gro
+[PMAP20020]: ./configurations/PMAP020charge_DME_TBAPF6_20percent/relax-30mer-300K-D/1-relax-100ns-whole.gro
+[PMAP20060]: ./configurations/PMAP060charge_DME_TBAPF6_20percent/relax-30mer-300K-D/1-relax-100ns-whole.gro
