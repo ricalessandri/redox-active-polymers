@@ -1,4 +1,4 @@
-# Redox Active Polymers
+# Redox-Active Polymers
 
 If you use or wish to cite the models and data contained in this repo,
 please refer to the following manuscript:
@@ -14,10 +14,12 @@ Feel free to ask questions about the files in this repo by opening an [issue](ht
 
 ### Polymers
 
-- The PMAP AA model can be found in the [library of Polyply](https://github.com/marrink-lab/polyply_1.0/blob/master/LIBRARY.md).
-- The PEPP AA model can be found in the [library of Polyply](https://github.com/marrink-lab/polyply_1.0/blob/master/LIBRARY.md).
-- The PVBP AA model can be found in the [library of Polyply](https://github.com/marrink-lab/polyply_1.0/blob/master/LIBRARY.md).
-- The PTMA AA model can be found in the [library of Polyply](https://github.com/marrink-lab/polyply_1.0/blob/master/LIBRARY.md).
+- The PMAP AA model can be found in the [library of Polyply](https://github.com/marrink-lab/polyply_1.0/blob/master/LIBRARY.md);
+  the topology for a 30-mer (with state of charge = 0%) can be found in [`polymers/`](./polymers).
+- The PEPP AA model can be found in the [library of Polyply](https://github.com/marrink-lab/polyply_1.0/blob/master/LIBRARY.md);
+  the topology for a 30-mer (with state of charge = 0%) can be found in [`polymers/`](./polymers).
+- The PVBP AA model can be found in the [library of Polyply](https://github.com/marrink-lab/polyply_1.0/blob/master/LIBRARY.md);
+  the topology for a 30-mer (with state of charge = 0%) can be found in [`polymers/`](./polymers).
 
 ### Electrolytes and solvents
 
