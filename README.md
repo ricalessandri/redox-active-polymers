@@ -58,7 +58,7 @@ Feel free to ask questions about the files in this repo by opening an [issue](ht
 
 - **equilibration**: [step1 - minimization](./MD_settings/eq_step1_min.mdp), [step2 - NVT](./MD_settings/eq_step2_NVT.mdp), [step3 - 100 bar, 900K](./MD_settings/eq_step3_NPT_highP.mdp), [step4 - 900K](./MD_settings/eq_step4_NPT_highT.mdp) 
 - **cooling**: [NPT (900K to 100K)](./MD_settings/cool_NPT.mdp) 
-- **relaxation**: [NPT (300K)] (./MD_settings/relax_NPT.mdp) 
+- **relaxation**: [NPT (300K)](./MD_settings/relax_NPT.mdp) 
 
 <h1 align="center">
   <div>
