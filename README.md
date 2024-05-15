@@ -17,10 +17,10 @@ please refer to the following manuscript:
 - The PVBP AA model can be found in the [library of Polyply](https://github.com/marrink-lab/polyply_1.0/blob/master/LIBRARY.md).
 - The PTMA AA model can be found in the [library of Polyply](https://github.com/marrink-lab/polyply_1.0/blob/master/LIBRARY.md).
 
-
-### Electrolytes
+### Electrolytes and solvents
 
 - [electrolytes](./electrolytes)
+- [solvents](./solvents)
 
 
 ## System configurations
