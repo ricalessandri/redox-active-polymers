@@ -7,6 +7,8 @@ please refer to the following manuscript:
   "Structural, Ionic, and Electronic Properties of Solid-State Phthalimide-Containing Polymers for All-Organic Batteries",
   *Chemrxiv*, **2024**, [10.26434/chemrxiv-2024-qkjr8](https://doi.org/10.26434/chemrxiv-2024-qkjr8).
 
+Feel free to ask questions about the files in this repo by opening an [issue](https://github.com/ricalessandri/redox-active-polymers/issues)!
+
 
 ## Atomistic models
 
