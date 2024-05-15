@@ -60,6 +60,14 @@ Feel free to ask questions about the files in this repo by opening an [issue](ht
 - **cooling**: [NPT (900K to 100K)](./MD_settings/cool_NPT.mdp) 
 - **relaxation**: [NPT (300K)] (./MD_settings/relax_NPT.mdp) 
 
+<h1 align="center">
+  <div>
+    <a href="https://github.com/ricalessandri/redox-active-polymers" target="_blank">
+      <img src="docs/assets/MD_protocol.png" alt="MD" height="250">
+    </a>
+  </div>
+</h1>
+
 
 
 
