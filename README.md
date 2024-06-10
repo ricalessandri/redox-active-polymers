@@ -5,7 +5,7 @@ please refer to the following manuscript:
 
 - R. Alessandri, C.-H. Li, S. Keating, K. T. Mohanty, A. Peng, J. L. Lutkenhaus, S. J. Rowan, D. P. Tabor, J. J. de Pablo,
   "Structural, Ionic, and Electronic Properties of Solid-State Phthalimide-Containing Polymers for All-Organic Batteries",
-  *Chemrxiv*, **2024**, [10.26434/chemrxiv-2024-qkjr8](https://doi.org/10.26434/chemrxiv-2024-qkjr8).
+  *JACS Au*, **2024**, [10.1021/jacsau.4c00276](https://doi.org/10.1021/jacsau.4c00276).
 
 Feel free to ask questions about the files in this repo by opening an [issue](https://github.com/ricalessandri/redox-active-polymers/issues).
 
