@@ -1,15 +1,19 @@
-; /Users/alessandri/miniconda3/envs/polyply/bin/polyply gen_itp -f ffs/PVBP_and_PVBPcharged.ff -name PVBP -seq CH3a:1 PVBP:30 CH3b:1 -o PVBP_n30.itp
+; /Users/alessandri/miniconda3/envs/polyply/bin/polyply gen_params -f PVBP_and_PVBPcharged.ff PVBP_and_PVBPcharged_links.ff CH3.ff CH3O.ff citations.bib -name PVBP -seq CH3:1 PVBP:30 CH3:1 -o PVBP_n30_000charged.itp
 
 ; Please cite the following papers:
+; Alessandri, R; Li, C; Keating, S; Mohanty, K T; Peng, A; Lutkenhaus, J L; Rowan, S J; Tabor, D P; de Pablo, J J;  JACS Au 2024; 10.1021/jacsau.4c00276
+; Jorgensen, W L; Tirado-Rives, J;  Proceedings of the National Academy of Sciences 2005; 10.1073/pnas.0408037102
+; Dodda, L S; Cabeza de Vaca, I; Tirado-Rives, J; Jorgensen, W L;  Nucleic Acids Research 2017; 10.1093/nar/gkx312
+; Grunewald, F; Alessandri, R; Kroon, P C; Monticelli, L; Souza, P C; Marrink, S J;  Nature Communications 2022; 10.1038/s41467-021-27627-4
 
 [ moleculetype ]
 PVBP 3
 
 [ atoms ]
-  1 opls_135  1 CH3a C1    1 -0.2427 12.011
-  2 opls_140  1 CH3a H2    2  0.0809  1.008
-  3 opls_140  1 CH3a H3    3  0.0809  1.008
-  4 opls_140  1 CH3a H4    4  0.0809  1.008
+  1 opls_135  1 CH3  C1    1 -0.2451 12.011
+  2 opls_140  1 CH3  H2    2  0.0817  1.008
+  3 opls_140  1 CH3  H3    3  0.0817  1.008
+  4 opls_140  1 CH3  H4    4  0.0817  1.008
   5 opls_135  2 PVBP C01   5 -0.1576 12.011
   6 opls_135  2 PVBP C02   6 -0.0695 12.011
   7 opls_145  2 PVBP C03   7  -0.064 12.011
@@ -1000,10 +1004,10 @@ PVBP 3
 992 opls_146 31 PVBP H11 992   0.179  1.008
 993 opls_146 31 PVBP H12 993    0.16  1.008
 994 opls_146 31 PVBP H13 994  0.1524  1.008
-995 opls_135 32 CH3b C1  995 -0.2427 12.011
-996 opls_140 32 CH3b H2  996  0.0809  1.008
-997 opls_140 32 CH3b H3  997  0.0809  1.008
-998 opls_140 32 CH3b H4  998  0.0809  1.008
+995 opls_135 32 CH3  C1  995 -0.2451 12.011
+996 opls_140 32 CH3  H2  996  0.0817  1.008
+997 opls_140 32 CH3  H3  997  0.0817  1.008
+998 opls_140 32 CH3  H4  998  0.0817  1.008
 
 [ bonds ]
   2   1 1 0.1090 284512.000
