@@ -1,4 +1,4 @@
-; /Users/alessandri/miniconda3/envs/polyply/bin/polyply gen_params -f PMAP_and_PMAPcharged.ff PMAP_and_PMAPcharged_links.ff CH3.ff CH3O.ff citations.bib -name PMAP -seq CH3:1 PMAP:30 CH3:1 -o PMAP_n30_000charged.itp
+; /Users/alessandri/miniconda3/envs/polyply/bin/polyply gen_params -f PMAP_and_PMAPcharged.ff PMAP_and_PMAPcharged_links.ff CH3ter.ff CH3Oter.ff citations.bib -name PMAP -seq CH3:1 PMAP:30 CH3:1 -o PMAP_n30_000charged.itp
 
 ; Please cite the following papers:
 ; Alessandri, R; Li, C; Keating, S; Mohanty, K T; Peng, A; Lutkenhaus, J L; Rowan, S J; Tabor, D P; de Pablo, J J;  JACS Au 2024; 10.1021/jacsau.4c00276

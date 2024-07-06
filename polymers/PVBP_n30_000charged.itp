@@ -1,4 +1,4 @@
-; /Users/alessandri/miniconda3/envs/polyply/bin/polyply gen_params -f PVBP_and_PVBPcharged.ff PVBP_and_PVBPcharged_links.ff CH3.ff CH3O.ff citations.bib -name PVBP -seq CH3:1 PVBP:30 CH3:1 -o PVBP_n30_000charged.itp
+; /Users/alessandri/miniconda3/envs/polyply/bin/polyply gen_params -f PVBP_and_PVBPcharged.ff PVBP_and_PVBPcharged_links.ff CH3ter.ff CH3Oter.ff citations.bib -name PVBP -seq CH3:1 PVBP:30 CH3:1 -o PVBP_n30_000charged.itp
 
 ; Please cite the following papers:
 ; Alessandri, R; Li, C; Keating, S; Mohanty, K T; Peng, A; Lutkenhaus, J L; Rowan, S J; Tabor, D P; de Pablo, J J;  JACS Au 2024; 10.1021/jacsau.4c00276
