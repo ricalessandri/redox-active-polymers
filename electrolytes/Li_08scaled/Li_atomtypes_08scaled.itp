@@ -1,0 +1,4 @@
+[ atomtypes ]
+; scaled by 0.8
+; name  mass  charge  ptype   sigma   epsilon
+ opls_406   Li+  3   6.94100     0.800       A    2.12645e-01  7.64793e-02
