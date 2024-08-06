@@ -1,0 +1,61 @@
+
+Writing this NN_results_overlaps_AA.txt file in overlaps-MONOMERS007-monomers-2x600K595K585K575K475K465K455K445K435K345K335K325K315K305K/distlog100lr0.00100bs0512ne01000nn0400k5.
+
+Params (incl. user input): mapping=AA, overlap_type=log, make_plot=True, verbose=True, k-split=5.
+HyperParameters (fixed at the beginning): n_neurons=400, l_rate=0.001, batch_size=512, n_epochs=1000.
+
+Data coming from the following folders: ['monomers-NMPHTH-600KA0to1ns', 'monomers-NMPHTH-600KA1to2ns', 'monomers-NMPHTH-475KA14to15ns', 'monomers-NMPHTH-465KA15to16ns', 'monomers-NMPHTH-305KA31to32ns', 'monomers-NMPHTH-315KA30to31ns', 'monomers-NMPHTH-595KA2to3ns', 'monomers-NMPHTH-455KA16to17ns', 'monomers-NMPHTH-335KA28to29ns', 'monomers-NMPHTH-325KA29to30ns', 'monomers-NMPHTH-585KA3to4ns', 'monomers-NMPHTH-445KA17to18ns', 'monomers-NMPHTH-575KA4to5ns', 'monomers-NMPHTH-435KA18to19ns', 'monomers-NMPHTH-345KA27to28ns'].
+
+Using 100% of all (=(146343, 144)) data: (131708, 144) for CROSSVAL (TRAIN and VALIDATION); (14634, 144) for TEST.
+Shapes of the Xuse (131708, 144) and Yuse (131708, 1) arrays (100%(-10%) of data set size).
+Shapes of the Xuse_test (14634, 144) and Yuse_test (14634, 1) arrays (10% of the data set size).
+The input dimension for the neural net is thus 144.
+The ouput dimension for the neural net is thus 1.
+
+ NOTE! Using 'log' coupligns.
+
+INFO - Training took about 33338.83 seconds (= 555.65 minutes = 9.26 hours).
+** PERFORMANCE OF THE MODEL **
+RESULT - 5-fold train RMSE    : [0.119 0.119 0.126 0.125 0.126] 0.123 +/- 0.004  
+RESULT - 5-fold train r2      : [0.971 0.971 0.967 0.968 0.967]   0.969 +/- 0.002  
+RESULT - 5-fold cross-val RMSE: [0.281 0.29  0.295 0.292 0.296] 0.291 +/- 0.006  
+RESULT - 5-fold cross-val r2  : [0.837 0.828 0.824 0.827 0.822]   0.828 +/- 0.005  
+RESULT - TEST RMSE            : 0.288
+RESULT - TEST r2              : 0.831
+
+
+** MODEL ARCHITECTURE **
+Model: "sequential_4"
+_________________________________________________________________
+Layer (type)                 Output Shape              Param #   
+=================================================================
+dense_20 (Dense)             (None, 400)               58000     
+_________________________________________________________________
+batch_normalization_16 (Batc (None, 400)               1600      
+_________________________________________________________________
+activation_16 (Activation)   (None, 400)               0         
+_________________________________________________________________
+dense_21 (Dense)             (None, 400)               160400    
+_________________________________________________________________
+batch_normalization_17 (Batc (None, 400)               1600      
+_________________________________________________________________
+activation_17 (Activation)   (None, 400)               0         
+_________________________________________________________________
+dense_22 (Dense)             (None, 400)               160400    
+_________________________________________________________________
+batch_normalization_18 (Batc (None, 400)               1600      
+_________________________________________________________________
+activation_18 (Activation)   (None, 400)               0         
+_________________________________________________________________
+dense_23 (Dense)             (None, 400)               160400    
+_________________________________________________________________
+batch_normalization_19 (Batc (None, 400)               1600      
+_________________________________________________________________
+activation_19 (Activation)   (None, 400)               0         
+_________________________________________________________________
+dense_24 (Dense)             (None, 1)                 401       
+=================================================================
+Total params: 546,001
+Trainable params: 542,801
+Non-trainable params: 3,200
+_________________________________________________________________
