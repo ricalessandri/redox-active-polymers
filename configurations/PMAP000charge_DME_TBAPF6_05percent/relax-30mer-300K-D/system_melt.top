@@ -1,0 +1,22 @@
+; Include forcefield parameters
+#include "oplsaa.ff/forcefield.itp"
+#include "../../../electrolytes/TBA_08scaled/TBA_atomtypes_08scaled.itp"
+#include "../../../electrolytes/PF6_08scaled/PF6_atomtypes_08scaled.itp"
+
+; Include topologies
+#include "../../../polymers/PMAP_n30_000charged.itp"
+#include "../../../solvents/dimethoxyethane.itp"
+#include "../../../electrolytes/TBA_08scaled/TBA_08scaled.itp"
+#include "../../../electrolytes/PF6_08scaled/PF6_08scaled.itp"
+
+[ system ]
+; Name
+PMMPH melt
+
+
+[ molecules ]
+; Compound        #mols
+PMAP               100
+DME                252
+TBA                 17
+PF6                 17

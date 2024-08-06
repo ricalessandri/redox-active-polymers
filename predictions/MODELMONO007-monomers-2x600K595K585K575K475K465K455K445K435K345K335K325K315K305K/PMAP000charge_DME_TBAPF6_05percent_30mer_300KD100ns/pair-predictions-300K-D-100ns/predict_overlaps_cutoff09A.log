@@ -1,0 +1,55 @@
+08-06 15:37 MDAnalysis   INFO     MDAnalysis STOPPED logging
+08-06 15:37 root         INFO     Predicting electronic couplings (orbital overlaps) w/ ECG.
+08-06 15:37 MDAnalysis.topology.TPRparser INFO     Gromacs version   : b'VERSION 2023.3'
+08-06 15:37 MDAnalysis.topology.TPRparser INFO     tpx version       : 129
+08-06 15:37 MDAnalysis.topology.TPRparser INFO     tpx generation    : 28
+08-06 15:37 MDAnalysis.topology.TPRparser INFO     tpx precision     : 4
+08-06 15:37 MDAnalysis.topology.TPRparser INFO     tpx file_tag      : b'release'
+08-06 15:37 MDAnalysis.topology.TPRparser INFO     tpx natoms        : 101852
+08-06 15:37 MDAnalysis.topology.TPRparser INFO     tpx ngtc          : 1
+08-06 15:37 MDAnalysis.topology.TPRparser INFO     tpx fep_state     : 0
+08-06 15:37 MDAnalysis.topology.TPRparser INFO     tpx lambda        : 0.0
+08-06 15:37 myapp.area1  INFO     System (resname=PMAP) with 386 chains, 101852 atoms, and 1 frames.
+08-06 15:37 myapp.area1  INFO     - NOTE! - resname = PMAP --> will reduce the distance matrix from 16x16 to 12x12 (i.e., discard the Hs)
+08-06 15:37 tensorflow   WARNING  SavedModel saved prior to TF 2.5 detected when loading Keras model. Please ensure that you are saving the model with model.save() or tf.keras.models.save_model(), *NOT* tf.saved_model.save(). To confirm, there should be a file named "keras_metadata.pb" in the SavedModel directory.
+08-06 15:37 myapp.area1  INFO     
+INFO - printing a summary of the model (might be at the bottom of the log file): None
+08-06 15:37 myapp.area1  INFO     - INFO - There are 3000 MONOMER radical sites.
+08-06 15:37 myapp.area1  INFO     - INFO - GROUP_selection = name C08 N09 C10 O11 C12 C13 C14 C15 C16 C17 C18 O19 H10 H11 H12 H13
+08-06 15:37 myapp.area1  INFO     
+INFO - prediction - Starting with the prediction.
+08-06 15:37 myapp.area1  INFO     - INFO - COM-COM distance matrix with dimensions (3000, 3000) computed.
+08-06 15:42 myapp.area1  INFO     
+INFO - prediction - Prediction completed in 290.152 seconds.
+08-06 15:42 myapp.area1  INFO     
+**DONE** 12034 COM-COM distances are within the CUTOFF.
+08-06 15:42 myapp.area1  INFO     **DONE** predicted overlaps written to 'overlaps_predicted_cutoff09A.csv'.
+
+            (None, 400)               160400    
+                                                                 
+ batch_normalization_17 (Bat  (None, 400)              1600      
+ chNormalization)                                                
+                                                                 
+ activation_17 (Activation)  (None, 400)               0         
+                                                                 
+ dense_22 (Dense)            (None, 400)               160400    
+                                                                 
+ batch_normalization_18 (Bat  (None, 400)              1600      
+ chNormalization)                                                
+                                                                 
+ activation_18 (Activation)  (None, 400)               0         
+                                                                 
+ dense_23 (Dense)            (None, 400)               160400    
+                                                                 
+ batch_normalization_19 (Bat  (None, 400)              1600      
+ chNormalization)                                                
+                                                                 
+ activation_19 (Activation)  (None, 400)               0         
+                                                                 
+ dense_24 (Dense)            (None, 1)                 401       
+                                                                 
+=================================================================
+Total params: 546,001
+Trainable params: 542,801
+Non-trainable params: 3,200
+_________________________________________________________________
