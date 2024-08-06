@@ -75,8 +75,7 @@ Feel free to ask questions about the files in this repo by opening an [issue](ht
 ./PROC_MLVij_step02_plot_the_inferred_overlaps.bash    # plot the inferred orbital overlaps
 ./PROC_MLVij_step03_convert_to_EC_and_plot.bash        # convert to electronic couplings and plot
 ``` 
-Example result can be found [here](./predictions/MODELMONO007-monomers-2x600K595K585K575K475K465K455K445K435K345K335K325K315K305K/PMAP000charge_DME_TBAPF6
-_05percent_30mer_300KD100ns/pair-predictions-300K-D-100ns/0_data_couplings_cutoff09A.pdf).
+Example result can be found [here](./predictions/MODELMONO007-monomers-2x600K595K585K575K475K465K455K445K435K345K335K325K315K305K/PMAP000charge_DME_TBAPF6_05percent_30mer_300KD100ns/pair-predictions-300K-D-100ns/0_data_couplings_cutoff09A.pdf).
 
 
 
