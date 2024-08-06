@@ -31,11 +31,11 @@ Feel free to ask questions about the files in this repo by opening an [issue](ht
 
 - PMAP:DME:TBAPF6 system configurations relaxed at 300K (in Gromacs format):
 
-| swelling % / polymer SoC |                0% |               20% |               60% |
-|--------------------------|-------------------|-------------------|-------------------|
-|  5%                      | [.gro][PMAP05000] | [.gro][PMAP05020] | [.gro][PMAP05060] |
-| 10%                      | [.gro][PMAP10000] | [.gro][PMAP10020] | [.gro][PMAP10060] |
-| 20%                      | [.gro][PMAP20000] | [.gro][PMAP20020] | [.gro][PMAP20060] |
+| swelling % / polymer SoC |                0%                   |               20% |               60% |
+|--------------------------|-------------------------------------|-------------------|-------------------|
+|  5%                      | [.gro][PMAP05000];[.top][tPMAP05000]| [.gro][PMAP05020] | [.gro][PMAP05060] |
+| 10%                      | [.gro][PMAP10000]                   | [.gro][PMAP10020] | [.gro][PMAP10060] |
+| 20%                      | [.gro][PMAP20000]                   | [.gro][PMAP20020] | [.gro][PMAP20060] |
 
 - PEPP:DME:TBAPF6 system configurations relaxed at 300K (in Gromacs format):
 
@@ -80,6 +80,7 @@ Example result can be found [here](./predictions/MODELMONO007-monomers-2x600K595
 
 
 [PMAP05000]: https://github.com/ricalessandri/redox-active-polymers/tree/main/configurations/PMAP000charge_DME_TBAPF6_05percent/relax-30mer-300K-D/1-relax-100ns-whole.gro
+[tPMAP05000]: https://github.com/ricalessandri/redox-active-polymers/tree/main/configurations/PMAP000charge_DME_TBAPF6_05percent/relax-30mer-300K-D/system_melt.top
 [PMAP05020]: https://github.com/ricalessandri/redox-active-polymers/tree/main/configurations/PMAP020charge_DME_TBAPF6_05percent/relax-30mer-300K-D/1-relax-100ns-whole.gro
 [PMAP05060]: https://github.com/ricalessandri/redox-active-polymers/tree/main/configurations/PMAP060charge_DME_TBAPF6_05percent/relax-30mer-300K-D/1-relax-100ns-whole.gro
 [PMAP10000]: https://github.com/ricalessandri/redox-active-polymers/tree/main/configurations/PMAP000charge_DME_TBAPF6_10percent/relax-30mer-300K-D/1-relax-100ns-whole.gro
