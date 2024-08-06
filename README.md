@@ -69,6 +69,13 @@ Feel free to ask questions about the files in this repo by opening an [issue](ht
 </h1>
 
 
+## Use the ML surrogate model to infer the electronic couplings
+``` 
+./PROC_MLVij_step01_predictions.bash                   # infer orbital overlaps
+./PROC_MLVij_step02_plot_the_inferred_overlaps.bash    # plot the inferred orbital overlaps
+./PROC_MLVij_step03_convert_to_EC_and_plot.bash        # convert to electronic couplings and plot
+``` 
+
 
 
 [PMAP05000]: https://github.com/ricalessandri/redox-active-polymers/tree/main/configurations/PMAP000charge_DME_TBAPF6_05percent/relax-30mer-300K-D/1-relax-100ns-whole.gro
