@@ -1,0 +1,22 @@
+; Include forcefield parameters
+#include "oplsaa.ff/forcefield.itp"
+#include "../../../electrolytes/TBA_08scaled/TBA_atomtypes_08scaled.itp"
+#include "../../../electrolytes/PF6_08scaled/PF6_atomtypes_08scaled.itp"
+
+; Include topologies
+#include "../../../polymers/PVBP_n30_000charged.itp"
+#include "../../../solvents/dimethoxyethane.itp"
+#include "../../../electrolytes/TBA_08scaled/TBA_08scaled.itp"
+#include "../../../electrolytes/PF6_08scaled/PF6_08scaled.itp"
+
+[ system ]
+; Name
+PVBP melt
+
+
+[ molecules ]
+; Compound        #mols
+PVBP               100
+DME                274
+TBA                 18
+PF6                 18
