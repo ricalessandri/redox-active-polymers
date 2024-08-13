@@ -12,8 +12,8 @@ MODELlabel="MODELMONO007-monomers-2x600K595K585K575K475K465K455K445K435K345K335K
 
 
 polymer="PMAP"
+polymer="PVBP"
 #polymer="PEPP"
-#polymer="PVBP"
 
 solvent="DME";cation="TBA";anion="PF6"
 N="30"
