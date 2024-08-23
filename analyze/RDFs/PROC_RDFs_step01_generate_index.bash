@@ -1,8 +1,9 @@
 #!/bin/bash
 
 
-polymer="PMAP"
-phth_atoms="C08 N09 C10 O11 C12 C13 C14 C15 C16 C17 C18 O19 H10 H11 H12 H13"
+polymer="PMAP";phth_atoms="C08 N09 C10 O11 C12 C13 C14 C15 C16 C17 C18 O19 H10 H11 H12 H13"
+#polymer="PEPP";phth_atoms="C03 N04 C05 O06 C07 C08 C09 C10 C11 C12 C13 O14 H04 H05 H06 H07"
+#polymer="PVBP";phth_atoms="C07 N08 C09 O10 C11 C12 C13 C14 C15 C16 C17 O18 H08 H09 H10 H11"
 solvent="DME"; cation="TBA";anion="PF6"
 N="30" # degree of polymerization
 TEMP="300"

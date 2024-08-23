@@ -2,6 +2,8 @@
 
 
 polymer="PMAP"
+#polymer="PEPP"
+#polymer="PVBP"
 solvent="DME"; cation="TBA";anion="PF6"
 N="30" # degree of polymerization
 TEMP="300"
