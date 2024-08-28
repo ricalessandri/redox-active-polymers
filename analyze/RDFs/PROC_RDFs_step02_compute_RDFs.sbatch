@@ -16,7 +16,6 @@ dt=250    # default setting for gmx rdf
 bin=02    # default setting for gmx rdf
 
 currentFOLDER=${PWD}
-echo "@RA@ - DEBUG PDW = $PWD = $currentFOLDER (START)"
 
 #for percent in "05" "10" "20" ; do
 #  for charge in "000" "020" "060" ; do
@@ -29,7 +28,6 @@ for percent in "05" ; do
     echo "${TEMP}K"
     echo "${FOLDER}"
     cd    ${FOLDER}
-    echo "@RA@ - DEBUG PDW = $PWD"
 
     # Generate tpr file
     gmx grompp -p ${TOP_FILE} -c ${SAMPLE} -f ../../../MD_settings/eq_step1_min.mdp -o ${TPR_FILE}
@@ -46,7 +44,6 @@ for percent in "05" ; do
     rm \#rdf*xvg*
 
     cd ${currentFOLDER}
-    echo "@RA@ - DEBUG PDW = $PWD"
 
   done
 done
