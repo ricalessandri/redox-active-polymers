@@ -23,6 +23,18 @@ cp IL/0.8\*2009IL/ITP/ClO4_atomtypes_scale0.8.itp ClO4_08scaled/ClO4_atomtypes_0
 cp IL/PDB/ClO4.pdb                                ClO4_08scaled/.
 ```
 
+## OTf 
+```
+mkdir -p OTf_08scaled
+cp IL/0.8*2009IL/ITP/TFO_scale0.8.itp           OTf_08scaled/OTf_08scaled.itp
+cp IL/0.8*2009IL/ITP/TFO_atomtypes_scale0.8.itp OTf_08scaled/OTf_atomtypes_08scaled.itp
+cp IL/PDB/TFO.pdb                               OTf_08scaled/OTf.pdb
+# Just rename the anion from TFO to OTf (by replacing TFO occurrences inside the files)
+cd OTf_08scaled
+sed -i '' 's/TFO/OTf/' *
+cd ..
+```
+
 ## Li
 ```
 echo "[ atomtypes ]"                                              >  Li_08scaled/Li_atomtypes_08scaled.itp
