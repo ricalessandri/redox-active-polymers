@@ -12,7 +12,7 @@ PROC_OLAM_step03_plot_lambdaout_vs_epsilon.py  # produces Figure S27
 
 
 ## Appendix
-1. Example input for cavity calculation: 
+1. Example Gaussian input for cavity calculation: 
    ```
    g16<<EOF
    %nprocshared=28
@@ -47,7 +47,7 @@ PROC_OLAM_step03_plot_lambdaout_vs_epsilon.py  # produces Figure S27
    EOF
    ```
 
-2. List of solvents:
+2. List of solvents (Gaussian):
    ```
    https://web.archive.org/web/20160922154735/http://www.gaussian.com/g_tech/g_ur/k_scrf.htm
    ```
